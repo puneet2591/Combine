@@ -84,5 +84,13 @@ final class AnimalTests: XCTestCase {
         
         }
     }
+    
+    func test_addition_success() {
+        XCTAssertTrue(10 + 50 == 60)
+    }
+    
+    func test_addition_failure() {
+        XCTAssertFalse(10 + 50 != 60)
+    }
 
 }
